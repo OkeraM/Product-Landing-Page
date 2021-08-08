@@ -1,0 +1,149 @@
+ /*.container {
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}*/
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  padding: 0;
+}
+
+ body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 40px;
+} 
+
+ /* @media (max-width: 500px) {
+  body {
+    flex-wrap: wrap;
+    text-align: center;
+  } 
+} */
+
+
+#header-img {
+  padding: 10px;
+  margin: auto;
+}
+
+#video_y {
+  padding: 30px;
+}
+
+.Row_1 {
+  display: flex;
+}
+
+
+#AppleMac {
+  width: 500px;
+  height: 350px;
+  margin-left: 20px;
+}
+
+.Row_2 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.Form_1 {
+  position: relative;
+  top: 200px;
+  left: 21px;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999; /* use z-index to make sure that the nav-bar goes over other elements */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+
+  background-color: green;
+  
+}
+
+form {
+  position: absolute;
+  bottom: 200px;
+  padding: 10px;
+}
+
+.security-pag {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  text-align: left;
+}
+
+.about-title {
+  padding: 10px;
+}
+
+.about-link {
+  position: relative;
+  top: 150px;
+  right: 125px;
+}
+
+#Contact {
+  margin-left: 30px;
+  overflow: hidden;
+}
+
+.desktop-computer {
+  width: 40%;
+  position: relative;
+  left: 600px;
+  bottom: 50px;
+}
+
+#About {
+  margin-left: 500px;
+  overflow: hidden;
+}
+
+.CyberPic {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  left: 920px;
+  bottom: 80px;
+}
+
+
